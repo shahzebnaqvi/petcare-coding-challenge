@@ -35,7 +35,7 @@ This project follows the MVC (Model-View-Controller) architecture with GetX for 
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/shahzebnaqvi/petcareapp.git
+   git clone https://github.com/shahzebnaqvi/petcare-coding-challenge.git
    cd petcareapp
 2. **Install dependencies**:
    ```sh
