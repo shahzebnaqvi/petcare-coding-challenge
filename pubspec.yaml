@@ -7,11 +7,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  get:
-  http:
-  cached_network_image:
-  flutter_screenutil:
-  intl:
+  get: ^4.6.6
+  http: ^1.1.1
+  cached_network_image: ^3.2.3
+  intl: ^0.18.1
   shimmer: ^2.0.0
   cupertino_icons: ^1.0.2
   lottie: ^3.1.2
