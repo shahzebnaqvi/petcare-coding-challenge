@@ -25,7 +25,7 @@ class MainScreen extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.language),
             onPressed: () {
-              baseController.toggleDirection(); // Toggle text direction
+              baseController.toggleDirection(); 
             },
           ),
         ],
