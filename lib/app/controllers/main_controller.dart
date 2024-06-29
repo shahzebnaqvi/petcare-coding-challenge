@@ -9,7 +9,7 @@ class MainController extends GetxController {
 
   MainController(this._mediaRepository);
 
-  void fetchMediaItems(String query) async {
+    Future<void> fetchMediaItems(String query) async {
     isLoading(true);
     try {
       var items = await _mediaRepository.getMediaItems(query);
