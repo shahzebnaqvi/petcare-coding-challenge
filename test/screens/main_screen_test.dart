@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:get/get.dart';
+import 'package:petcareapp/app/controllers/base_controller.dart';
 import 'package:petcareapp/app/controllers/main_controller.dart';
 import 'package:petcareapp/app/pages/main_screen.dart';
 import 'package:petcareapp/library/models/media_item.dart';
@@ -34,10 +35,13 @@ void main() {
 
   group('MainScreen Widget Tests', () {
     late MainController mainController;
+    late BaseController baseController;
 
     setUp(() {
       mainController = MainController(MockMediaRepository());
-      Get.put(mainController);
+      Get.put(mainController);  
+      baseController = BaseController();
+      Get.put(baseController);
     });
 
     testWidgets('MainScreen displays search bar and results correctly', (WidgetTester tester) async {
